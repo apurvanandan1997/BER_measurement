@@ -1,0 +1,15 @@
+<BaliSimProject version="1.3" path="." stage="0" language="-1" name="beh_sim" simType="ModelSim">
+    <Source worklib="work" path="../../MachXO2/Receiver/calc_ber.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="../../MachXO2/Receiver/ddrx4_gearing.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="../../MachXO2/Receiver/dec_8b10b.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="../../MachXO2/Receiver/deserializer8_1.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="../../MachXO2/Receiver/ft601.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="../../MachXO2/Receiver/prng.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="../../MachXO2/Receiver/rx_sync.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="../../MachXO2/Receiver/top_tb.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="../../MachXO2/Receiver/top.vhd" type="VHDL" include="none"/>
+    <SimLib value="pmi_work ovi_machxo2"/>
+    <GlbInc value=""/>
+    <Macro value=""/>
+    <TopModule instance="" language="" name=""/>
+</BaliSimProject>

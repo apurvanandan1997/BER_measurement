@@ -1,0 +1,92 @@
+/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/calc_ber.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/calc_ber.vhd
+Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity calc_ber
+-- Compiling architecture rtl of calc_ber
+
+} {} {}} /home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/prng.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/prng.vhd
+Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity prng
+-- Compiling architecture rtl of prng
+
+} {} {}} /home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/top.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/top.vhd
+Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity top
+-- Compiling architecture rtl_top of top
+-- Loading package NUMERIC_STD
+-- Loading entity deserializer8_1
+-- Loading entity prng
+-- Loading entity calc_ber
+
+} {} {}} /home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/deserializer8_1.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/deserializer8_1.vhd
+Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity deserializer8_1
+-- Compiling architecture rtl of deserializer8_1
+-- Loading entity dec_8b10b
+
+} {} {}} /home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/top_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/top_tb.vhd
+Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity top_tb
+-- Compiling architecture behavior of top_tb
+
+} {} {}} /home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/dec_8b10b.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/dec_8b10b.vhd
+Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dec_8b10b
+-- Compiling architecture behavioral of dec_8b10b
+
+} {} {}} /home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/ft601.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/ft601.vhd
+Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ft601
+-- Compiling architecture rtl of ft601
+
+} {} {}} /home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/rx_sync.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/rx_sync.vhd
+Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ddrx4_rx_sync
+-- Compiling architecture rtl of ddrx4_rx_sync
+
+} {} {}} /home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/ddrx4_gearing.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/ddrx4_gearing.vhd
+Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity DDRX4
+-- Compiling architecture str of DDRX4
+
+} {} {}}

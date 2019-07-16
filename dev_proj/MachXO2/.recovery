@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="dev_proj" device="LCMXO2-2000HC-6TG100C" default_implementation="impl1">
+    <Options/>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="top"/>
+        <Source name="../../MachXO2/Receiver/calc_ber.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../../MachXO2/Receiver/ddrx4_gearing.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../../MachXO2/Receiver/dec_8b10b.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../../MachXO2/Receiver/deserializer8_1.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../../MachXO2/Receiver/ft601.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="ft601"/>
+        </Source>
+        <Source name="../../MachXO2/Receiver/prng.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../../MachXO2/Receiver/rx_sync.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../../MachXO2/Receiver/top_tb.vhd" type="VHDL" type_short="VHDL" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="../../MachXO2/Receiver/top.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="top"/>
+        </Source>
+        <Source name="beh_sim/beh_sim.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="dev_proj.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="par_sim/par_sim.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="dev_proj1.sty"/>
+</BaliProject>

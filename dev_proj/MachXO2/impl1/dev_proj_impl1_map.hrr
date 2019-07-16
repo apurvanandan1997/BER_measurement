@@ -1,0 +1,80 @@
+---------------------------------------------------
+Report for cell top
+   Instance path: top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     230.00        100.0
+                                  LUT4	     405.00        100.0
+                                 IOBUF	         47        100.0
+                                PFUREG	        388        100.0
+                                RIPPLE	         23        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+prng("10111100110011001111000001010011")	          1         2.2
+                                 ft601	          1        56.3
+                       deserializer8_1	          1        31.7
+                              calc_ber	          1         7.0
+---------------------------------------------------
+Report for cell calc_ber
+   Instance path: top/ber_proc
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      16.00         7.0
+                                  LUT4	      10.00         2.5
+                                PFUREG	         26         6.7
+                                RIPPLE	         13        56.5
+---------------------------------------------------
+Report for cell ft601
+   Instance path: top/ft601_comp
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     129.42        56.3
+                                  LUT4	     235.00        58.0
+                                PFUREG	        246        63.4
+---------------------------------------------------
+Report for cell prng("10111100110011001111000001010011")
+   Instance path: top/prng_isnt
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.00         2.2
+                                PFUREG	          8         2.1
+                                RIPPLE	          5        21.7
+---------------------------------------------------
+Report for cell deserializer8_1
+   Instance path: top/decoder_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      73.00        31.7
+                                  LUT4	     155.00        38.3
+                                PFUREG	         99        25.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                             dec_8b10b	          1         6.2
+                                 DDRX4	          1         7.1
+---------------------------------------------------
+Report for cell DDRX4
+   Instance path: top/decoder_inst/deserializer_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      16.25         7.1
+                                  LUT4	      30.00         7.4
+                                PFUREG	         19         4.9
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                         ddrx4_rx_sync	          1         6.2
+---------------------------------------------------
+Report for cell ddrx4_rx_sync
+   Instance path: top/decoder_inst/deserializer_inst/Inst5_rx_sync
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      14.25         6.2
+                                  LUT4	      28.00         6.9
+                                PFUREG	         17         4.4
+---------------------------------------------------
+Report for cell dec_8b10b
+   Instance path: top/decoder_inst/decoder_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      14.25         6.2
+                                  LUT4	      45.00        11.1
+                                PFUREG	          9         2.3

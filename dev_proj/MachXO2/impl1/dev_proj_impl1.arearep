@@ -1,0 +1,145 @@
+----------------------------------------------------------------------
+Report for cell top.TECH
+Register bits:  388 of 2352 (16.497%)
+I/O cells:      47
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               AND2         1          100.0
+                              CCU2D        23          100.0
+                            CLKDIVC         1          100.0
+                             DELAYE         1          100.0
+                            DLLDELC         1          100.0
+                            DQSDLLC         1          100.0
+                          ECLKSYNCA         1          100.0
+                            FD1P3AX       231          100.0
+                            FD1P3DX         2          100.0
+                            FD1P3IX        74          100.0
+                            FD1P3JX         3          100.0
+                            FD1S3AX        49          100.0
+                            FD1S3BX         2          100.0
+                            FD1S3DX        13          100.0
+                            FD1S3IX         7          100.0
+                            FD1S3JX         7          100.0
+                                GSR         1          100.0
+                                 IB         5          100.0
+                            IDDRX4B         1          100.0
+                                INV         3          100.0
+                               LUT4       406          100.0
+                                 OB         6          100.0
+                                OBZ        36          100.0
+                                OR2         1          100.0
+                              PFUMX        24          100.0
+SUB MODULES
+                              DDRX4         1
+                           calc_ber         1
+                      ddrx4_rx_sync         1
+                          dec_8b10b         1
+                    deserializer8_1         1
+                              ft601         1
+prng("10111100110011001111000001010011")         1
+                              TOTAL       907
+----------------------------------------------------------------------
+Report for cell calc_ber.v1
+Instance Path : ber_proc
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        13           56.5
+                            FD1S3AX        26           53.1
+                               LUT4        10            2.5
+                              TOTAL        49
+----------------------------------------------------------------------
+Report for cell ft601.v1
+Instance Path : ft601_comp
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3AX       181           78.4
+                            FD1P3IX        58           78.4
+                            FD1P3JX         2           66.7
+                            FD1S3AX         4            8.2
+                            FD1S3JX         1           14.3
+                               LUT4       236           58.1
+                              PFUMX        11           45.8
+                              TOTAL       493
+----------------------------------------------------------------------
+Report for cell prng("10111100110011001111000001010011").v1
+Instance Path : prng_isnt
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D         5           21.7
+                            FD1S3IX         3           42.9
+                            FD1S3JX         5           71.4
+                              TOTAL        13
+----------------------------------------------------------------------
+Report for cell deserializer8_1.v1
+Instance Path : decoder_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               AND2         1          100.0
+                            CLKDIVC         1          100.0
+                             DELAYE         1          100.0
+                            DLLDELC         1          100.0
+                            DQSDLLC         1          100.0
+                          ECLKSYNCA         1          100.0
+                            FD1P3AX        50           21.6
+                            FD1P3DX         2          100.0
+                            FD1P3IX        16           21.6
+                            FD1P3JX         1           33.3
+                            FD1S3AX        11           22.4
+                            FD1S3BX         2          100.0
+                            FD1S3DX        13          100.0
+                            FD1S3IX         3           42.9
+                            FD1S3JX         1           14.3
+                            IDDRX4B         1          100.0
+                                INV         3          100.0
+                               LUT4       156           38.4
+                                OR2         1          100.0
+                              PFUMX        13           54.2
+SUB MODULES
+                              DDRX4         1
+                      ddrx4_rx_sync         1
+                          dec_8b10b         1
+                              TOTAL       282
+----------------------------------------------------------------------
+Report for cell DDRX4.v1
+Instance Path : decoder_inst.deserializer_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               AND2         1          100.0
+                            CLKDIVC         1          100.0
+                             DELAYE         1          100.0
+                            DLLDELC         1          100.0
+                            DQSDLLC         1          100.0
+                          ECLKSYNCA         1          100.0
+                            FD1P3DX         2          100.0
+                            FD1S3AX         2            4.1
+                            FD1S3BX         2          100.0
+                            FD1S3DX        13          100.0
+                            IDDRX4B         1          100.0
+                                INV         3          100.0
+                               LUT4        30            7.4
+                                OR2         1          100.0
+                              PFUMX         1            4.2
+SUB MODULES
+                      ddrx4_rx_sync         1
+                              TOTAL        62
+----------------------------------------------------------------------
+Report for cell ddrx4_rx_sync.v1
+Instance Path : decoder_inst.deserializer_inst.Inst5_rx_sync
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX         2          100.0
+                            FD1S3BX         2          100.0
+                            FD1S3DX        13          100.0
+                                INV         1           33.3
+                               LUT4        28            6.9
+                              PFUMX         1            4.2
+                              TOTAL        47
+----------------------------------------------------------------------
+Report for cell dec_8b10b.v1
+Instance Path : decoder_inst.decoder_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3AX         9           18.4
+                               LUT4        45           11.1
+                              PFUMX         2            8.3
+                              TOTAL        56

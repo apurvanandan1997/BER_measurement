@@ -1,0 +1,27 @@
+if {![file exists "/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/dev_proj/MachXO2/beh_sim/beh_sim.mpf"]} { 
+	project new "/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/dev_proj/MachXO2/beh_sim" beh_sim
+	project addfile "/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/calc_ber.vhd"
+	project addfile "/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/ddrx4_gearing.vhd"
+	project addfile "/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/dec_8b10b.vhd"
+	project addfile "/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/deserializer8_1.vhd"
+	project addfile "/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/ft601.vhd"
+	project addfile "/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/prng.vhd"
+	project addfile "/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/rx_sync.vhd"
+	project addfile "/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/top_tb.vhd"
+	project addfile "/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/top.vhd"
+	vlib  work
+	vdel -lib work -all 
+	vlib work
+	vcom -work work "/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/calc_ber.vhd"
+	vcom -work work "/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/ddrx4_gearing.vhd"
+	vcom -work work "/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/dec_8b10b.vhd"
+	vcom -work work "/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/deserializer8_1.vhd"
+	vcom -work work "/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/ft601.vhd"
+	vcom -work work "/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/prng.vhd"
+	vcom -work work "/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/rx_sync.vhd"
+	vcom -work work "/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/top_tb.vhd"
+	vcom -work work "/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/top.vhd"
+} else {
+	project open "/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/dev_proj/MachXO2/beh_sim/beh_sim"
+}
+vsim -version

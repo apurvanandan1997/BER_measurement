@@ -1,0 +1,13 @@
+if {![file exists "/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/dev_proj/MachXO2/par_sim/par_sim.mpf"]} { 
+	project new "/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/dev_proj/MachXO2/par_sim" par_sim
+	project addfile "/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/top_tb.vhd"
+	project addfile "/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/dev_proj/MachXO2/impl1/dev_proj_impl1_vho.vho"
+	vlib  work
+	vdel -lib work -all 
+	vlib work
+	vcom -work work "/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/top_tb.vhd"
+	vcom -work work "/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/dev_proj/MachXO2/impl1/dev_proj_impl1_vho.vho"
+} else {
+	project open "/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/dev_proj/MachXO2/par_sim/par_sim"
+}
+vsim -version

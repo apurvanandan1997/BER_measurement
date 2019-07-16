@@ -1,0 +1,394 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/dev_proj/MachXO2/beh_sim
+Ecalc_ber
+Z1 w1563070643
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z7 8/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/calc_ber.vhd
+Z8 F/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/calc_ber.vhd
+l0
+L19
+Vj0H9Haf]mi>oWKoCofEHJ0
+!s100 ZoVU6k5J>`4H9J]>YFaS<3
+Z9 OW;C;10.5c;63
+32
+Z10 !s110 1563070659
+!i10b 1
+Z11 !s108 1563070659.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/calc_ber.vhd|
+Z13 !s107 /home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/calc_ber.vhd|
+!i113 1
+Z14 o-work work -2002 -explicit -O0
+Z15 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+R5
+R6
+Z16 DEx4 work 8 calc_ber 0 22 j0H9Haf]mi>oWKoCofEHJ0
+l38
+L30
+V4:iB_39_1WOz_:[`^6m5l1
+!s100 SUbVlFlT<<C0oL?f^c^5]3
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Eddrx4
+Z17 w1562805094
+R5
+R6
+R0
+Z18 8/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/ddrx4_gearing.vhd
+Z19 F/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/ddrx4_gearing.vhd
+l0
+L6
+V<W5BXo:`QjXiHBG`hCLGz3
+!s100 z@IC8IcX@AUKEXk[]<nd60
+R9
+32
+R10
+!i10b 1
+R11
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/ddrx4_gearing.vhd|
+Z21 !s107 /home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/ddrx4_gearing.vhd|
+!i113 1
+R14
+R15
+Astr
+R5
+R6
+DEx4 work 5 ddrx4 0 22 <W5BXo:`QjXiHBG`hCLGz3
+l180
+L24
+VUYH^K1IGdBnGANLae2YG02
+!s100 efdPe7LdC6nC0KCc]^Wef0
+R9
+32
+R10
+!i10b 1
+R11
+R20
+R21
+!i113 1
+R14
+R15
+Eddrx4_rx_sync
+Z22 w1562803835
+R4
+R5
+R6
+R0
+Z23 8/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/rx_sync.vhd
+Z24 F/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/rx_sync.vhd
+l0
+L8
+V5]FR5F:I6MdE5`6H61Sf[0
+!s100 FgzcoSK65QC`SMlK0FfnE0
+R9
+32
+Z25 !s110 1563070660
+!i10b 1
+Z26 !s108 1563070660.000000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/rx_sync.vhd|
+Z28 !s107 /home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/rx_sync.vhd|
+!i113 1
+R14
+R15
+Artl
+R4
+R5
+R6
+DEx4 work 13 ddrx4_rx_sync 0 22 5]FR5F:I6MdE5`6H61Sf[0
+l110
+L21
+V1UNijFZ2?g:KZDOS^o:UB2
+!s100 QVn2jhJZPS94>NSOgPkHK2
+R9
+32
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 1
+R14
+R15
+Edec_8b10b
+Z29 w1534091649
+R5
+R6
+R0
+Z30 8/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/dec_8b10b.vhd
+Z31 F/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/dec_8b10b.vhd
+l0
+L57
+VknGCTT?lV`Fk:I@NM[l3`3
+!s100 :E=2BP3bg7[8T[iV5zKFD1
+R9
+32
+R10
+!i10b 1
+R11
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/dec_8b10b.vhd|
+Z33 !s107 /home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/dec_8b10b.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R5
+R6
+Z34 DEx4 work 9 dec_8b10b 0 22 knGCTT?lV`Fk:I@NM[l3`3
+l78
+L68
+VKADO<V`=n_L5?_^NGGXeV1
+!s100 kSC4[XE4enABWjI_hcD;U3
+R9
+32
+R10
+!i10b 1
+R11
+R32
+R33
+!i113 1
+R14
+R15
+Edeserializer8_1
+Z35 w1563054711
+R2
+R3
+R4
+R5
+R6
+R0
+Z36 8/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/deserializer8_1.vhd
+Z37 F/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/deserializer8_1.vhd
+l0
+L9
+VOieXd0:67f^eazl5XEgKl3
+!s100 G7SmiV[1lUOTZ8=bHFdPm1
+R9
+32
+R10
+!i10b 1
+R11
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/deserializer8_1.vhd|
+Z39 !s107 /home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/deserializer8_1.vhd|
+!i113 1
+R14
+R15
+Artl
+R34
+R2
+R3
+R4
+R5
+R6
+Z40 DEx4 work 15 deserializer8_1 0 22 OieXd0:67f^eazl5XEgKl3
+l59
+L23
+Va<=oWY1^1H?efGBLj>8I21
+!s100 UeA>0OD6@=74jfHXN@k5H1
+R9
+32
+R10
+!i10b 1
+R11
+R38
+R39
+!i113 1
+R14
+R15
+Eft601
+Z41 w1562273293
+R2
+R3
+R5
+R6
+R0
+Z42 8/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/ft601.vhd
+Z43 F/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/ft601.vhd
+l0
+L25
+V;8GMbzF>QlaLFCLTPlKF83
+!s100 ^@`Agmc=zlz6ZA5TOJ7a_1
+R9
+32
+R10
+!i10b 1
+R11
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/ft601.vhd|
+Z45 !s107 /home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/ft601.vhd|
+!i113 1
+R14
+R15
+Artl
+R2
+R3
+R5
+R6
+DEx4 work 5 ft601 0 22 ;8GMbzF>QlaLFCLTPlKF83
+l83
+L56
+VXecb3__iE0hkZX5EIfBOe0
+!s100 aBcHPh]kAd9]HLQd2TJmD1
+R9
+32
+R10
+!i10b 1
+R11
+R44
+R45
+!i113 1
+R14
+R15
+Eprng
+Z46 w1563070511
+R2
+R3
+R4
+R5
+R6
+R0
+Z47 8/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/prng.vhd
+Z48 F/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/prng.vhd
+l0
+L21
+V?kEo6jFOG3mV@dz9hieQP2
+!s100 iYfBJm3PaObBjmPaLad0_3
+R9
+32
+R25
+!i10b 1
+R11
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/prng.vhd|
+Z50 !s107 /home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/prng.vhd|
+!i113 1
+R14
+R15
+Artl
+R2
+R3
+R4
+R5
+R6
+Z51 DEx4 work 4 prng 0 22 ?kEo6jFOG3mV@dz9hieQP2
+l47
+L42
+Vez34AVCO@9>WRIMm=cUS12
+!s100 1D[hX;iVcDR0[U:J`o8Ma1
+R9
+32
+R25
+!i10b 1
+R11
+R49
+R50
+!i113 1
+R14
+R15
+Etop
+Z52 w1563070283
+R2
+R3
+R5
+R6
+R0
+Z53 8/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/top.vhd
+Z54 F/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/top.vhd
+l0
+L26
+V6o^WER>39nglQ2TYcNI;73
+!s100 YLZe8F>k7PFAFBEZ@eXXo2
+R9
+32
+R25
+!i10b 1
+R26
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/top.vhd|
+Z56 !s107 /home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/top.vhd|
+!i113 1
+R14
+R15
+Artl_top
+R16
+R51
+R4
+R40
+R2
+R3
+R5
+R6
+Z57 DEx4 work 3 top 0 22 6o^WER>39nglQ2TYcNI;73
+l109
+L59
+Z58 V:J:cBB3Te8lN`=oAzne>R2
+Z59 !s100 7c06G`4ZPIjIgOh21`5kR0
+R9
+32
+R25
+!i10b 1
+R26
+R55
+R56
+!i113 1
+R14
+R15
+Etop_tb
+Z60 w1563069587
+R5
+R6
+R0
+Z61 8/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/top_tb.vhd
+Z62 F/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/top_tb.vhd
+l0
+L35
+VJVnNlbYFX^Wd8WZ56_O3c1
+!s100 @aC61`ARUD;4;cmTj@WLZ1
+R9
+32
+R25
+!i10b 1
+R26
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/top_tb.vhd|
+Z64 !s107 /home/apurvan/GSoC/usb-plug-mod-working/BER_measurement/MachXO2/Receiver/top_tb.vhd|
+!i113 1
+R14
+R15
+Abehavior
+R5
+R6
+DEx4 work 6 top_tb 0 22 JVnNlbYFX^Wd8WZ56_O3c1
+l86
+L38
+VTGk304JbN3z@U0bb^Jk>R1
+!s100 ^I4MKQQUn@egVnzHmfV[U3
+R9
+32
+R25
+!i10b 1
+R26
+R63
+R64
+!i113 1
+R14
+R15
